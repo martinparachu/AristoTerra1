@@ -1,0 +1,13 @@
+credentials             = "./milan-gcp-test-account.json"
+project_id              = "green-wares-270812"
+service_account         = "terraform-milan-svc-acc@green-wares-270812.iam.gserviceaccount.com"
+region                  = "us-east1"
+zones                   = ["us-east1-d", "us-east1-b", "us-east1-c"]
+vm_zone                 = "us-east1-d"
+vm_machine_type         = "f1-micro"
+gke_name                = "milan-gke-cluster"
+gke_machine_type        = "n1-standard-2"
+gke_min_count           = 1
+gke_max_count           = 3
+gke_disk_size_gb        = 10
+gke_initial_node_count  = 1
